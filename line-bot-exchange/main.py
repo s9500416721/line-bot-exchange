@@ -7,8 +7,8 @@ import json
 import os
 
 app = Flask(__name__)
-CHANNEL_ACCESS_TOKEN = os.getenv("QmBNHfDbBB2vJXtCvJuaoL2/bKAruUiUTXMBxcwOLfPeah8ZZQbosU1O1Un932B+RyFcXv1zSTmqja/h4WcbYvxzHNXElKR8Xm52C8C4z4CIuYYKqonku9fvqAicGYsZgFwIwoyjVNZkvxDG3l5z0AdB04t89/1O/w1cDnyilFU=")
-USER_ID = os.getenv("Uf02220479b60ce5aa9813ab3d643fa54")
+CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
+USER_ID = os.getenv("LINE_USER_ID")
 
 
 
