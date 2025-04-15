@@ -3,5 +3,5 @@ services:
     name: line-bot-exchange
     env: python
     buildCommand: ""
-    startCommand: "python main.py"
+    startCommand: "gunicorn main:app"
     plan: free
